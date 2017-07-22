@@ -12,6 +12,7 @@ class SteamAPI
 
     public function __construct($apiKey)
     {
+        // assign api key
         $this->apiKey = $apiKey;
 
         // create guzzle instance
