@@ -1,6 +1,7 @@
 {
     "name": "chescos/steam-api",
     "description": "This package can interact with parts of the Steam API",
+    "keywords": ["steam", "steam api"],
     "type": "library",
     "license": "MIT",
     "require": {

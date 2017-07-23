@@ -10,7 +10,7 @@ class SteamAPI
     protected $client;
     protected $apiKey;
 
-    public function __construct($apiKey)
+    public function __construct($apiKey = false)
     {
         // assign api key
         $this->apiKey = $apiKey;
